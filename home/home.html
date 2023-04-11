@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Politecnica de Baja California</title>
+    <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <img src="bg.jpg" class="bg-img">
+
+    <div class="bg-degradado"></div>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="m1.png" id="content1" class="active">
+            <img src="m2.png" id="content2">
+        </div>
+        <div class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+        </div>
+        <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button>
+    </div>
+
+
+    <header class="header">
+        <a href="https://www.upbc.edu.mx" class="logo"><img class="logo-logo" src="logo.png"></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="https://www.upbc.edu.mx" target="_blank">Universidad Politecnica de Baja California</a>
+            <a href="https://padlet.com/almanza_andrea/desarrollo-humano-y-valores-dvcmogpki0php2kk" target="_blank">Padlet</a>
+        </nav>
+    </header>
+
+    <div class="nav-bg"></div>
+    <script src="home.js"></script>
+</body>
+</html>
